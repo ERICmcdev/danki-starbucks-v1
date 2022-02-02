@@ -1,0 +1,122 @@
+#container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.apresentation-landding-page-index {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-page-index {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px 0px 20px;
+    margin-bottom: 50px;
+    & a {
+        padding: 2px 4px;
+        color: black;
+        outline: none;
+        text-decoration: none;
+        font-size: 19px;
+    }
+    & a:hover {
+        background-color: rgba(4, 255, 66, 0.055);
+    }
+    & img{
+        cursor: pointer;
+    }
+}
+
+.field-informations-page-index {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    & .text-apresentation-box {
+        width: 50%;
+        min-width: 200px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    & h1 {
+        font-size: 3rem;
+        font-weight: 500;
+        color: rgb(27, 27, 27);
+        margin-bottom: 20px;
+    }
+    & b {
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: green;
+    }
+    & p {
+        margin-bottom: 20px;
+    }
+    & button[type="submit"] {
+        padding: 10px;
+        border-radius: 50px;
+        outline: none;
+        border: none;
+        background-color: green;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    & button[type="submit"]:hover {
+        background-color: rgba(0, 128, 0, 0.301);
+    }
+    & .starbucks-product-exibition-page-index {
+        width: 450px;
+        height: 450px;
+        display: flex;
+        align-items: flex-start;
+        border-radius: 50%;
+        position: relative;
+        // padding: 20px 80px 10px 80px;
+        // border-radius: 50%;
+        background-color: rgba(8, 109, 8, 0.781);
+    }& img{
+        transform: translateX(-40px);
+    }
+    & .mini-products-exibition-page-index {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    & div {
+        margin: 0 0 0 10px;
+    }
+}
+
+.social-media-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 430px;
+    top: 140px;
+}
+
+.social-media-box > picture{
+    padding-top: 10px;
+}
+
+.social-media-box > picture > img{
+    width: 100%;
+}

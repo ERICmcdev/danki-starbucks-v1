@@ -1,0 +1,193 @@
+#container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.apresentation-landding-page-index {
+  width: 100%;
+  max-width: 1500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header-page-index {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 50px 0px 20px;
+  margin-bottom: 50px;
+}
+
+.header-page-index a {
+  padding: 2px 4px;
+  color: black;
+  outline: none;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.header-page-index a:hover {
+  background-color: rgba(4, 255, 66, 0.055);
+}
+
+.header-page-index img {
+  cursor: pointer;
+}
+
+.field-informations-page-index {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.field-informations-page-index .text-apresentation-box {
+  width: 50%;
+  min-width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.field-informations-page-index h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #1b1b1b;
+  margin-bottom: 20px;
+}
+
+.field-informations-page-index b {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: green;
+}
+
+.field-informations-page-index p {
+  margin-bottom: 20px;
+}
+
+.field-informations-page-index button[type="submit"] {
+  padding: 10px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.field-informations-page-index button[type="submit"]:hover {
+  background-color: rgba(0, 128, 0, 0.301);
+}
+
+.field-informations-page-index .starbucks-product-exibition-page-index {
+  width: 450px;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-radius: 50%;
+  position: relative;
+  background-color: rgba(8, 109, 8, 0.781);
+}
+
+.field-informations-page-index img {
+  -webkit-transform: translateX(-40px);
+          transform: translateX(-40px);
+}
+
+.field-informations-page-index .mini-products-exibition-page-index {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.field-informations-page-index div {
+  margin: 0 0 0 10px;
+}
+
+.social-media-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  left: 430px;
+  top: 140px;
+}
+
+.social-media-box > picture {
+  padding-top: 10px;
+}
+
+.social-media-box > picture > img {
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
